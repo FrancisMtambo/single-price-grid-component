@@ -20,7 +20,6 @@ body  {
     height: 90%;
     margin: 10% 22% 7% 22%;
     
-    
 }
 
 .intro  {
@@ -123,5 +122,68 @@ h2 {
 
 p {
     line-height: 1rem;
+}
+
+.pricing, .why  {
+padding: 50px 20px 100px 30px;
+
+}
+
+.list  {
+    line-height: 1.4rem;
+}
+
+}
+
+@media screen and (max-width: 957px) {
+
+.pricing, .why  {
+    padding: 30px 20px 120px 20px;
+}
+
+.list  {
+    
+    font-size: 14px;
+    line-height: 1.7rem;
+}
+
+.intro-text  {
+    font-size: 14px;
+}
+
+}
+
+@media screen and (max-width: 773px) {
+
+.list  {
+    
+    font-size: 13px;
+    line-height: 1.2rem;
+}
+
+.access  {
+    font-size: small;
+}
+
+.guarantee  {
+
+    font-size: 14px;
+}
+}
+
+
+@media screen and (max-width: 625px) {
+
+.guarantee  {
+    line-height: 10px;
+}
+
+.list {
+    line-height: 1.4rem;
+    font-size: 13px;
+}
+
+.pricing, .why  {
+    padding: 15px 9px 120px 9px;
 }
 }
