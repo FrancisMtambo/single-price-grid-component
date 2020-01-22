@@ -35,7 +35,7 @@ body  {
 
 h2 {
     color: rgb(23, 161, 161);
-    padding-bottom: 13px;
+    padding-bottom: 1px;
 }
 
 h3 {
@@ -186,4 +186,20 @@ padding: 50px 20px 100px 30px;
 .pricing, .why  {
     padding: 15px 9px 120px 9px;
 }
+
+}
+
+@media screen and (max-width: 565px) {
+
+
+
+.flex-row  {flex-direction: column;}
+
+.pricing, .why  {
+    width: 100%;
+}
+
+h2 {
+    padding-bottom: 3px;
+
 }
